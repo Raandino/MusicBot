@@ -1,0 +1,62 @@
+
+
+/*Colores empresa*/
+:root{
+    
+    --cremita: #FDF7E5;
+    --cafesito:   #93662B;
+    --gris: #423E44;
+    --anaranjadito:   #F5C650;
+
+}
+    
+
+    
+
+*{
+    margin: 0;
+  
+}
+
+body{
+    background-color: var(--cremita);
+}
+/*Header*/
+
+#lghead{
+    padding: 10px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    #lghead{
+        height: 150px;
+    }
+}
+
+#lghead:hover{
+    
+}
+
+
+
+
+
+.mm-st li a{
+    color: var(--gris);
+    font-size: 23px;
+    font-weight: 700;       
+    line-height: normal;
+    font-style: normal;
+    font-variant: normal;
+   
+}
+
+.mm-st li a:hover{
+    background-color: var(--cafesito);
+    color: var(--cremita);
+}
+
+
+
+/*Fin Header*/
