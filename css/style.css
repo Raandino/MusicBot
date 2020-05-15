@@ -37,21 +37,29 @@ nav{
  
 }
 
-li{
-    display: inline-block;
-    vertical-align: middle;
-    padding-top: 10px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+
+
+/*Styles of navbar elements*/
+
+.navbar{
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase !important;
     font-size: 18px;
-    line-height: 1.35em;
-    font-weight: bold;
-    letter-spacing: 0.01em;
-    text-decoration: inherit;
-    text-align: center;
-    
 }
+.head-menu:hover{
+    background-color: var(--anaranjadito);
+    color: var(--gris);
+}
+
+.btn-head{
+    color: var(--cremita);
+}
+
+.btn-head:hover{
+    color: var(--gris);
+    background-color: var(--anaranjadito);
+}
+
 
 #lista{
 
@@ -61,12 +69,6 @@ li{
 
 }
 
-
-a{
-    color: white;
-    font-weight: bold;
-    
-}
 
 #navcont{
     z-index: 1000;
@@ -78,7 +80,7 @@ a{
 
 }
 
-img{
+#logoNav{
     float: left;
     width: 100%;
     max-width: 70px;
@@ -110,11 +112,16 @@ img{
     padding-top: 150px;
     max-height: 500px;
     padding-bottom: 150px;
-    background-color: black;
-    background-image: url(/img/header.jpg);
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-image: url(../img/header.jpg);
+   
+}
+
+.cl{
+    border: 1px solid black;
 }
 
 #headercontent{
@@ -125,7 +132,9 @@ img{
     margin-left: auto;
     margin-right: auto;
     background-repeat: repeat;
+    
 }
+
 
 #titulo{
     display: block;
