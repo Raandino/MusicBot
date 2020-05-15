@@ -49,6 +49,7 @@ nav{
 .head-menu:hover{
     background-color: var(--anaranjadito);
     color: var(--gris);
+    border-radius: 10px;
 }
 
 .btn-head{
@@ -58,6 +59,14 @@ nav{
 .btn-head:hover{
     color: var(--gris);
     background-color: var(--anaranjadito);
+    border-radius: 10px;
+}
+
+#btn-login{
+    margin-left: 10px;
+    background-color: var(--cremita);
+    color: var(--gris);
+    border-radius: 10px;
 }
 
 
