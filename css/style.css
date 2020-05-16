@@ -324,6 +324,67 @@ nav{
     
 }
 
+
+#informacionPrecio{
+    background-color: rgb(66, 62, 68);
+}
+
+#premPago{
+    background-color: rgb(185, 117, 36);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+
+#baspago{
+    background-color: rgb(227, 152, 21);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+#premPago h1{
+    font-family: 'Jost', sans-serif;
+    font-weight: 5px;
+}
+
+#infodelPago{
+    margin: 20px;
+   
+}
+
+#modalcompra{
+    margin-top: 35px;
+    width: 90%;
+    max-width: 170px;
+    padding: 20px;
+    background-color:  #F5C650;
+    border-radius: 4px;
+    font-weight: bold;
+    color: rgb(66, 62, 68);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #formulario{
     display: block;
     float: none;

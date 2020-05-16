@@ -253,7 +253,7 @@
               <li>Duracion de 3 meses</li>
               <li>Limite de 200 personas conectadas</li>
             </ul>
-            <button type="button" class="btn">Comprar</button>
+            <button type="button" class="btn" data-toggle="modal" data-target="#comprabas">Comprar</button>
           </div>
         </div>
         <div id="premium" class="card mb-4 shadow-sm">
@@ -267,55 +267,170 @@
               <li>Duracion de 1 año</li>
               <li>Sin limite de personas conectadas </li>
             </ul>
-            <button type="button" class="btn">Comprar</button>
+            <button type="button" class="btn" data-toggle="modal" data-target="#compraprem">Comprar</button>
+            
           </div>
         </div>
         </div>
       </div>
+
+      <!--MODALS DE COMPRA-->
+
+
+      <!--PREMIUM-->
+      <div id="compraprem" class="modal fade" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered modal-lg" style="width: 90%">
+
+            <div id="infpago" class="modal-content">
+
+              <div class="modal-header">
+                <h4 class="modal-title" style="font-weight: bold;">Detalles de la Compra</h4>
+                <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+              </div>
+              <!--Contenido de la ventana-->
+        
+              <div id="informacionPrecio"  class="container">
+                <div class="row" style="margin-bottom: 50px;">
+                <div id="premPago" class="col" style="border-radius: 2%;">
+                  <h4 class="text-center" style="color: white; margin-top: 20px; font-weight: bold;">Premium</h4>
+                  <img src="img/lg-icon-2.png" class="rounded mx-auto d-block" width="180" height="140" alt="">
+                    <h1  class="card-title pricing-card-title text-center" style="margin: 20px 0 20px;">$50</h1>
+                    <ul class="list-unstyled mt-3 mb-4 text-center" >
+                    <li>Duracion de 1 año</li>
+                    <li style="margin-bottom: 30px;">Sin limite de personas conectadas </li>
+                    </ul>
+
+
+                </div>
+
+                <div id="infodelPago" class="col">
+                  <h4 class="text-center" style="color: white; font-weight: bold;">Informacion del Pago</h4>
+
+                  <form action="">
+                    <label for="pagovisa" style="color: white; margin-top: 18px;">Tipo de Pago</label>
+                    <select id="pagovisa" class="form-control" >
+                      <option>Visa</option>
+                      <option>Mastercard</option>
+                      <option>American Express</option>
+                      <option>JCB</option>
+                      <option>Discover</option>
+                    </select>
+
+              
+                    <label for="numtarjeta" style="color: white; margin-top: 18px;">Número de la tarjeta</label>
+                    <input type="text" class="form-control" id="numtarjeta" placeholder="Número de la tarjeta"> 
+
+
+                    <label for="expira" style="color: white; margin-top: 18px;">Expira</label>
+                    <input type="text" class="form-control" id="expira" placeholder="MM / YY">
+
+                    <label for="titular" style="color: white; margin-top: 18px;">Nombre del titular de la tarjeta</label>
+                    <input type="text" class="form-control" id="titular" placeholder="Nombre del titular de la tarjeta">
+
+                    <label for="control" style="color: white; margin-top: 18px;">Codigo de control</label>
+                    <input type="text" class="form-control" id="control" placeholder="Codigo de control">
+
+                    <div class=" mx-auto" >
+                    <button type="button" class="btn justify-content-center" id="modalcompra">Comprar</button></div>
+
+                  </form>
+
+
+                </div>
+
+              </div> 
+
+              </div>
+        
+            </div>
+          </div>
+      </div>
+
+
+
+      <!--BASICO-->
+
+      <div id="comprabas" class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-lg" style="width: 90%">
+
+          <div id="infpago" class="modal-content">
+
+            <div class="modal-header">
+              <h4 class="modal-title" style="font-weight: bold;">Detalles de la Compra</h4>
+              <button tyle="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <!--Contenido de la ventana-->
+      
+            <div id="informacionPrecio"  class="container">
+              <div class="row" style="margin-bottom: 50px;">
+              <div id="baspago" class="col" style="border-radius: 2%;">
+                <h4 class="text-center" style="color: white; margin-top: 20px; font-weight: bold;">Basico</h4>
+                <img src="img/lg-icon-1.png" class="rounded mx-auto d-block" width="180" height="140" alt="">
+                  <h1  class="card-title pricing-card-title text-center" style="margin: 20px 0 20px;">$25</h1>
+                  <ul class="list-unstyled mt-3 mb-4 text-center" >
+                  <li>Duracion de 3 Meses</li>
+                  <li style="margin-bottom: 30px;">Limite de 200 personas conectadas</li>
+                  </ul>
+
+
+              </div>
+
+              <div id="infodelPago" class="col">
+                <h4 class="text-center" style="color: white; font-weight: bold;">Informacion del Pago</h4>
+
+                <form action="">
+                  <label for="pagovisa" style="color: white; margin-top: 18px;">Tipo de Pago</label>
+                  <select id="pagovisa" class="form-control" >
+                    <option>Visa</option>
+                    <option>Mastercard</option>
+                    <option>American Express</option>
+                    <option>JCB</option>
+                    <option>Discover</option>
+                  </select>
+
+            
+                  <label for="numtarjeta" style="color: white; margin-top: 18px;">Número de la tarjeta</label>
+                  <input type="text" class="form-control" id="numtarjeta" placeholder="Número de la tarjeta"> 
+
+
+                  <label for="expira" style="color: white; margin-top: 18px;">Expira</label>
+                  <input type="text" class="form-control" id="expira" placeholder="MM / YY">
+
+                  <label for="titular" style="color: white; margin-top: 18px;">Nombre del titular de la tarjeta</label>
+                  <input type="text" class="form-control" id="titular" placeholder="Nombre del titular de la tarjeta">
+
+                  <label for="control" style="color: white; margin-top: 18px;">Codigo de control</label>
+                  <input type="text" class="form-control" id="control" placeholder="Codigo de control">
+
+                  <div class=" mx-auto" >
+                  <button type="button" class="btn justify-content-center" id="modalcompra">Comprar</button></div>
+
+                </form>
+
+
+              </div>
+
+            </div> 
+
+            </div>
+      
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
 
 
     <!--Todo el footer-->
 
     <!--Fotos de nosotros-->
 
-    <div class="container marketing">
-
-      <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          
-        </div><!-- /.col-lg-4 -->
-        
-        <div class="col-lg-4">
-         
-        </div><!-- /.col-lg-4 -->
 
 
-      </div>
-
-    </div>
-
-
-<!--
-      <div id="formulario" class="position-sticky">
-        <button data-close-button id="equis" class="close-button">&times;</button>
-        <div id="formhead">
-        <h2 id="register">
-          Registrarse
-        </h2>
-        
-      </div>
-        <form action="">
-          <input type="text" id="name" placeholder="Nombre">
-          <input type="email" id="email" placeholder="Correo electronico">
-          <input type="password" id="pass" placeholder="Contraseña">
-          <a href="" id="registro">Registrarse</a>
-          
-        </form>
-        
-      </div>
-      
-      <div id="overlay"></div>-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
