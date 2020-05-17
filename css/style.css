@@ -169,10 +169,13 @@ nav{
     letter-spacing: 0.05em;
 }
 
+#funcion p{
+    font-size: 17px;
+}
+
 #contentUS{
     display: block;
     float: none;
-    vertical-align: top;
     padding-top: 5rem;
     padding-bottom: 5rem;
     background-color: white;
@@ -208,78 +211,13 @@ nav{
 }
 
 
-#textofuncion{
-    display: block;
-    width: 90%;
-    max-width: 250px;
-    margin-right: auto;
-    margin-left: auto;
-    color: white;
-    
-}
-
-#comofunciona{
-    color: white;
-    font-weight: bold;
-}
-
-#funcioncontent{
-    display: flex;
-    justify-content: center;
-    float: none;
-    width: 90%;
-    max-width: 1200px;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-
-.textopasos{
-    display: block;
-    float: none;
-    width: 100%;
-    margin-top: 1rem;
-    color: white;
-
-}
-
-.contenticon{
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-}
-
-.pasos{
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-}
-
-.pasostext{
-    text-align: center;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.textopasos p{
-    text-align: center;
-    font-size: 1rem;
-}
-
-#pasos2{
-    margin-left: 10px;
-    margin-right: 10px;
-    color: #FDF7E5;
-}
-
-
 #precioscont{
     margin-top: 30px;
 }
 
 #precioscont #h1{
-    margin-bottom: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
     font-weight: bold;
 }
 
@@ -381,142 +319,3 @@ nav{
 
 
 
-
-
-
-
-#formulario{
-    display: block;
-    float: none;
-    width: 100%;
-    vertical-align: top;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    background-color: rgb(66, 62, 68);
-}
-
-
-#formulario{
-    display: block;
-    float: none;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background-color: rgb(66, 62, 68);
-    border-radius: 5px;
-    z-index: 10;
-    margin-bottom: 10px;
-    visibility: hidden;
-
-}
-
-
-#equis{
-    margin-right: 5px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: white;
-    float: right;
-    margin-right: 20px;
-}
-
-
-#formulario h2{
-    display: block;
-    float: none;
-    width: 90%;
-    max-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 3rem;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    
-}
-
-#name{
-    display: block;
-    float: none;
-    width: 90%;
-    max-width: 300px;
-    margin-top: 3rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    background-color: #f2f2f2;
-    border: none;
-    border-radius: 5px;
-    font-weight: 300;
-    
-}
-
-#email{
-    display: block;
-    float: none;
-    width: 90%;
-    max-width: 300px;
-    margin-top: 2rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    background-color: #f2f2f2;
-    border: none;
-    border-radius: 5px;
-    font-weight: 300;
-    
-}
-
-#pass{
-    display: block;
-    float: none;
-    width: 90%;
-    max-width: 300px;
-    margin-top: 2rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 20px;
-    padding-right: 5px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    background-color: #f2f2f2;
-    border: none;
-    border-radius: 5px;
-    font-weight: 300;
-}
-
-#registro{
-    display: block;
-    float: none;
-    width: 90%;
-    max-width: 300px;
-    margin-top: 2rem;
-    margin-right: auto;
-    margin-left: auto;
-    padding: 20px;
-    background-color: rgb(245, 198, 80);
-    background-position: center center;
-    background-size: cover;
-    border-radius: 4px;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.01em;
-    color: rgb(0, 0, 0);
-    text-decoration: inherit;
-    text-shadow: -1px -1px 0 #000,;
-    text-align: center;
-}
