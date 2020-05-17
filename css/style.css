@@ -310,8 +310,14 @@ nav{
 
 
 
+#fotosUS{
+    background-color: rgb(66, 62, 68);
+    color: white;
+}
 
-
+#fotos{
+    margin-top: 60px;
+}
 
 
 
