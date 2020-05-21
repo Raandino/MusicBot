@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/hamburgers.css">
+    <link rel="stylesheet" href="css/login-modal.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/3ff13cef59.js" crossorigin="anonymous"></script>
@@ -16,7 +17,31 @@
 
 </head>
 <body id="page-top">
-
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+                
+                      
+                         
+                              <form class="box mt-5">
+                                  <h1>Login</h1>
+                                  <a class="forgot " href="#">Crear Usuario</a> 
+                                  <input type="text" name="" placeholder="Usuario"> 
+                                  <input  type="password" name="" placeholder="Contraseña">
+                                   <a class="forgot text-muted " mt-5 href="#">Olvide mi contraseña</a> 
+                                  <input type="submit" name="" value="Login" href="#">
+                                  
+                              </form>
+                       
+                      
+                 
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
       <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
@@ -27,7 +52,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Pricing</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Team</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Login</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" data-toggle="modal" data-target="#exampleModal" href="#contact">Login</a></li>
                 </ul>
             </div>
         </div>

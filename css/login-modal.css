@@ -1,0 +1,95 @@
+/*Colores empresa*/
+:root{
+    
+    --cremita: #FDF7E5;
+    --cafesito:   #93662B;
+    --gris: #423E44;
+    --anaranjadito:   #F5C650;
+
+}
+  
+
+.modal-content{
+    
+    border-radius: 15px;
+}
+.modal-body{
+    background-color: transparent !important;
+    border-radius: 10px;
+    background-image: url(../img/login-bg.png) !important;
+}
+.box {
+    
+    border-radius: 10px;
+    height: 500px;
+    text-align: center;
+    transition: 0.25s;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--anaranjadito);
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.box h1 {
+    font-family: 'Poppins', sans-serif !important;
+
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: var(--cafesito);
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--anaranjadito);
+    padding: 14px 40px;
+    outline: none;
+    color: var(--cremita);
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+.box input[type="submit"]:hover {
+    background: var(--anaranjadito);
+    color: var(--gris);
+}
+
+.forgot {
+    font-family: 'Poppins', sans-serif !important;
+
+    color: white;
+    font-size: 13px;
+    text-decoration: underline
+}
+
+.forgot:hover {
+    color: black;
+    text-decoration: underline
+}
+
