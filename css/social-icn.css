@@ -67,7 +67,7 @@
   height: 60px;
   border-radius: 100%;
   display: block;
-  background-color: var(--anaranjadito);
+  background: linear-gradient(45deg, var(--anaranjadito), var(--anaranjadito));
   transition: all 265ms ease-out;
 }
 .social-icons a:hover:before {
@@ -78,7 +78,7 @@
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
-  background-color: var(--anaranjadito);
+  background: linear-gradient(45deg, var(--anaranjadito), var(--anaranjadito));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;
