@@ -349,13 +349,13 @@ nav{
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: var(--gris);
     transition: background-color 0.2s ease;
-  }
-  #mainNav .navbar-brand {
+}
+#mainNav .navbar-brand {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 700;
     color: var(--cremita);
-  }
-  #mainNav .navbar-nav .nav-item .nav-link {
+}
+#mainNav .navbar-nav .nav-item .nav-link {
     color: var(--cremita);
     font-family: 'Poppins', sans-serif !important;
     font-weight: 700;
